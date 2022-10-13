@@ -9,6 +9,16 @@ var members=[{
     //major: "特级教练员",
     //wechat: "13844055086",
 },{
+    name: "廖智炫",
+    id: "JustinRochester",
+    qq: 923489297,
+    belong: "2023",
+    say: "",
+    //photo: "wxg.jpg",
+    //school: "东北师范大学附属中学",
+    //major: "特级教练员",
+    //wechat: "13844055086",
+},{
     name: "叶林忠",
     id: "ylzzz",
     qq: 2236641687,
