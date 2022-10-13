@@ -34,10 +34,16 @@ var members=[{
     qq: 1030322750,
     belong: "2024",
     say: "你的女朋友，我也很喜欢",
-    //photo: "wxg.jpg",
-    //school: "东北师范大学附属中学",
-    //major: "特级教练员",
-    //wechat: "13844055086",
+    photo: "dyf.jpg",
+    //school: "",
+    //major: "",
+    //wechat: "",
+    //bilibili: "",
+    //zhihu: "",
+    //blog: "",
+    //twitter: "",
+    //github: "",
+    //music_163: "",
 },{
     name: "王奕然",
     id: "everlasting",
@@ -91,7 +97,6 @@ for(var i=0; i<members.length; i++){
     
     addHTML+="<li><ul class=\"agileits-address-text \"><li><b>QQ</b></li><li>"+members[i].qq+"</li></ul></li>";
     if(members[i].wechat)addHTML+="<li><ul class=\"agileits-address-text \"><li><b>微信</b></li><li>"+members[i].wechat+"</li></ul></li>";
-    
     if(members[i].bilibili)addHTML+="<li><ul class=\"agileits-address-text\"><li><b>B站uid</b></li><li><a href=\"https://space.bilibili.com/"+members[i].bilibili+"\" target=\"_blank\"> "+members[i].bilibili+"</a></li></ul></li>";
     if(members[i].zhihu)addHTML+="<li><ul class=\"agileits-address-text\"><li><b>知乎</b></li><li><a href=\"http://www.zhihu.com/people/"+members[i].zhihu+"\" target=\"_blank\"> "+members[i].zhihu+"</a></li></ul></li>";
     if(members[i].blog)addHTML+="<li><ul class=\"agileits-address-text\"><li><b>博客</b></li><li><a href=\""+members[i].blog+"\" target=\"_blank\"> "+members[i].blog+"</a></li></ul></li>";
