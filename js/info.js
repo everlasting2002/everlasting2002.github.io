@@ -24,7 +24,7 @@ var members=[{
     qq: 2236641687,
     belong: "2023",
     say: "酱紫",
-    //photo: "wxg.jpg",
+    photo: "",
     //school: "东北师范大学附属中学",
     //major: "特级教练员",
     //wechat: "13844055086",
