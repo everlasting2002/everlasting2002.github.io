@@ -87,7 +87,7 @@ var members=[{
     //photo: "",
 },{
     name: "杨赫",
-    id: "kernel．bin",
+    id: "kernel\.bin",
     qq: 1160386205,
     belong: "2024",
     say: "你的女朋友，我也很喜欢",
