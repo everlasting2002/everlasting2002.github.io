@@ -32,7 +32,7 @@ var members=[{
     bilibili: "24842017",
     wechat: "YahAHa_lengxi",
     zhihu: "leng-xi-4-23",
-    //photo: "",
+    photo: "hl.jpg",
 },{
     name: "叶林忠",
     id: "ylzzz",
@@ -47,7 +47,7 @@ var members=[{
     qq: 394116068,
     belong: "2023",
     say: "苟",
-    photo: "",
+    photo: "phy.jpg",
     //school: "东北师范大学附属中学",
 },{
     name: "陈昊旸",
@@ -69,7 +69,7 @@ var members=[{
     qq: 1030322750,
     belong: "2024",
     say: "你的女朋友，我也很喜欢",
-    //photo: "dyf.jpg",
+    photo: "dyf.jpg",
     //wechat: "",
     //bilibili: "",
     //zhihu: "",
@@ -82,7 +82,8 @@ var members=[{
     id: "everlasting",
     qq: 851627835,
     belong: "2024",
-    say: "",
+    say: "你的原神，我也很喜欢",
+    // photo: "dls.jpg",
     //photo: "",
 },{
     name: "杨赫",
@@ -104,7 +105,7 @@ var members=[{
     qq: 1604089411,
     belong: "2025",
     say: "你复杂度都不对！",
-    //photo: "",
+    photo: "dls.jpg",
 }
 /* ,{
     name: "",
@@ -113,9 +114,6 @@ var members=[{
     say: "",
     qq: ,
 } */];
-
-
-///asdasdasdasdasdasdasdasdasdasdasd
 
 for(var i=0; i<members.length; i++){
     var div=document.getElementById("infomation");
