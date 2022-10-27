@@ -72,6 +72,7 @@ var members = [{
 	name: "杨赫",
 	id: "kernel．bin",
 	qq: 1160386205,
+	says: "",
 	belong: "2024",
 	github: "kernelbin",
 }, {
