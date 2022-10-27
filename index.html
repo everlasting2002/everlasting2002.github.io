@@ -6,82 +6,86 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>福州大学ACM实验室</title>
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="福州大学,ACM,福大" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+	<title>福州大学ACM实验室</title>
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="福州大学,ACM,福大" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
     function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen"><!-- chocolate css for gallery light box-->
-<!-- animation -->
-<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-<!-- //animation --> 
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-    $(".scroll").click(function(event){		
-    event.preventDefault();
-    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-    });
-});
-</script>
+	<!-- //for-mobile-apps -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+	<!-- chocolate css for gallery light box-->
+	<!-- animation -->
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<!-- //animation -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
 
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"> 
-    <!-- header -->
-    <div class="header-w3layouts"> 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">FZU-ACM</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <h1><a class="navbar-brand" href="index.html">FZU-ACM</a></h1>
-        </div> 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right">
-            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-            <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
-            <li><a class="page-scroll scroll active" href="#port">团队成员</a></li>
-            <li><a class="page-scroll scroll" href="#exp">团队荣誉</a></li>
-            <li><a class="page-scroll scroll" href="#contact">提供信息</a></li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>  
-    </div>
-<!-- modal -->
-<div id="cards"></div>
 
-</div>
-<!-- //modal -->
-<!-- Portfolio -->
-<div class="portfolio" id="port">
-    <ul class="simplefilter">
-        <li class="active" data-filter="all">All</li>
-        <li data-filter="1">老师</li>
-        <li data-filter="2022">2022届</li>
-        <li data-filter="2023">2023届</li>
-        <li data-filter="2024">2024届</li>
-        <li data-filter="2025">2025届</li>
-    </ul>
-    
-    <div class="filtr-container" id="infomation">
-        <!--
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<!-- header -->
+	<div class="header-w3layouts">
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target=".navbar-ex1-collapse">
+						<span class="sr-only">FZU-ACM</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1><a class="navbar-brand" href="index.html">FZU-ACM</a></h1>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+						<li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+						<li><a class="page-scroll scroll active" href="#port">团队成员</a></li>
+						<li><a class="page-scroll scroll" href="#exp">团队荣誉</a></li>
+						<li><a class="page-scroll scroll" href="#contact">提供信息</a></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+	</div>
+	<!-- modal -->
+	<div id="cards"></div>
+
+	</div>
+	<!-- //modal -->
+	<!-- Portfolio -->
+	<div class="portfolio" id="port">
+		<ul class="simplefilter">
+			<li class="active" data-filter="all">All</li>
+			<li data-filter="1">老师</li>
+			<li data-filter="2022">2022届</li>
+			<li data-filter="2023">2023届</li>
+			<li data-filter="2024">2024届</li>
+			<li data-filter="2025">2025届</li>
+		</ul>
+
+		<div class="filtr-container" id="infomation">
+			<!--
         <div class="filtr-item w3l-button" data-category="1">
             <a href="#" data-toggle="modal" data-target="#wangxiaoguang">
                 <figure class="w3ls-gallery">
@@ -93,119 +97,170 @@ jQuery(document).ready(function($) {
             </a>
         </div>
         -->
-    </div>
-</div>
-<script src="./js/info.js"></script>
-<!-- //Portfolio -->
-<div class="agile-border">
-<span></span>
-</div>
-<!-- work-experience-->
-<div id="exp" class="agile-edu exp">
-    <div class="container">	
-        <h3 class="w3l-heading">团队荣誉</h3>
-    <div class="work-info">
-        
-        <div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
-        <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2"> 
-            <div class="col-md-6  col-sm-6 col-xs-6  work1">
-                <h4>第46届亚洲区域赛</h4>
-                <p>2金<br/>4银<br/>10铜</p>
-            </div>
-            <div class="col-md-6  col-sm-6 col-xs-6 work2">
-                <h5>2022</h5>
-                <span></span>
-            </div>
-        </div>
-        
-        <div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
-        <div class="col-md-6  col-sm-6 col-xs-6 "></div>
-        <div class="col-md-6  col-sm-6 col-xs-6 work-right"> 
-            <div class="col-md-6 col-sm-6 col-xs-6 work2">
-                <span></span>
-                <h5>2022</h5>
-            </div>	
-            <div class="col-md-6  col-sm-6 col-xs-6 work-right1">
-                <h4>第46届亚洲区域赛</h4>
-                <p>2金<br/>4银<br/>10铜</p>
-            </div>
-        </div>
-        
-        <div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
-        <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2"> 
-            <div class="col-md-6  col-sm-6 col-xs-6  work1">
-                <h4>第46届亚洲区域赛</h4>
-                <p>2金<br/>4银<br/>10铜</p>
-            </div>
-            <div class="col-md-6  col-sm-6 col-xs-6 work2">
-                <h5>2022</h5>
-                <span></span>
-            </div>
-        </div>
-        
-        <div class="col-md-6  col-sm-6 col-xs-6 "> </div>
-        <div class="col-md-6  col-sm-6 col-xs-6 work-right">
-        </div>
-        
-        <div class="clearfix"> </div>
-    </div>
-    
-    <!-- <span class="edu-circle"></span> -->
-</div>
-</div>
-<!--//work-experience-->
-<!-- contact -->
-<div id="contact" class="w3_agileits-contact">
-    <div class="container">	
-        <h3 class="w3l-heading">提供信息</h3>
-        <div class="w3_agile-contact  jarallax text-center">
-        <h4>如果您已经加入了福州大学ACM团队</h4>
-        <h4>或者您的某些信息有误</h4>
-        <h4>欢迎把您的信息提供给我</h4>
-        <a href="mailto:i@wyr.im">i@wyr.im</a>
-        <h5>176 1431 3354</h5>
-        </div>
-    </div>	
-</div>	
-<!-- footer -->
-<div class="agileits_w3layouts-footer text-center">
-<div class="container">
-    <p>&copy; 2022 everlasting. All rights reserved</p>
-</div>
-</div>	
-<!-- //footer -->	
-<!-- //contact -->
-<!-- PopUp-Box-JavaScript -->
-    <script src="js/jquery.chocolat.js"></script>
-    <script type="text/javascript">
-    $(function() {
-        $('.filtr-item a').Chocolat();
-    });
-    </script>
-<!-- //PopUp-Box-JavaScript -->	
-<!-- fliter-JavaScript -->
-    <script src="js/jquery.filterizr.js"></script>
-    <script src="js/controls.js"></script>
-    <script type="text/javascript">
-    $(function() {
-        $('.filtr-container').filterizr();
-    });
-    </script>
-<!-- //fliter-JavaScript -->
-<script src="js/jarallax.js"></script>
-<script src="js/SmoothScroll.min.js"></script>
-<script type="text/javascript">
-/* init Jarallax */
-$('.jarallax').jarallax({
-    speed: 0.5,
-    imgWidth: 1366,
-    imgHeight: 768
-})
-</script>
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/easing.js"></script>
-<!-- //here ends scrolling icon -->
+		</div>
+	</div>
+	<script src="./js/info.js"></script>
+	<!-- //Portfolio -->
+	<div class="agile-border">
+		<span></span>
+	</div>
+	<!-- work-experience-->
+	<div id="exp" class="agile-edu exp">
+		<div class="container">
+			<h3 class="w3l-heading">团队荣誉</h3>
+			<div class="work-info">
+
+				<div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
+				<div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2">
+					<div class="col-md-6  col-sm-6 col-xs-6  work1">
+						<h4>第 40 届亚洲区域赛</h4>
+						<p>3 金<br />3 银<br />4 铜</p>
+					</div>
+					<div class="col-md-6  col-sm-6 col-xs-6 work2">
+						<h5>2015</h5>
+						<span></span>
+					</div>
+				</div>
+
+				<div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
+				<div class="col-md-6  col-sm-6 col-xs-6 "></div>
+				<div class="col-md-6  col-sm-6 col-xs-6 work-right">
+					<div class="col-md-6 col-sm-6 col-xs-6 work2">
+						<h5>2016</h5>
+						<span></span>
+					</div>
+					<div class="col-md-6  col-sm-6 col-xs-6 work-right1">
+						<h4>第 41 届亚洲区域赛</h4>
+						<p>5 金<br />3 银<br />5 铜</p>
+					</div>
+				</div>
+
+				<div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
+				<div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2">
+					<div class="col-md-6  col-sm-6 col-xs-6  work1">
+						<h4>第 42 届亚洲区域赛</h4>
+						<p>3 金<br />4 银<br />9 铜</p>
+					</div>
+					<div class="col-md-6  col-sm-6 col-xs-6 work2">
+						<h5>2017</h5>
+						<span></span>
+					</div>
+				</div>
+
+				<div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
+				<div class="col-md-6  col-sm-6 col-xs-6 "></div>
+				<div class="col-md-6  col-sm-6 col-xs-6 work-right">
+					<div class="col-md-6 col-sm-6 col-xs-6 work2">
+						<h5>2018</h5>
+						<span></span>
+					</div>
+					<div class="col-md-6  col-sm-6 col-xs-6 work-right1">
+						<h4>第 43 届亚洲区域赛</h4>
+						<p>1 金<br />7 银<br />9 铜</p>
+					</div>
+				</div>
+
+				<div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
+				<div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2">
+					<div class="col-md-6  col-sm-6 col-xs-6  work1">
+						<h4>第 44 届亚洲区域赛</h4>
+						<p>3 金<br />8 银<br />5 铜</p>
+					</div>
+					<div class="col-md-6  col-sm-6 col-xs-6 work2">
+						<h5>2019</h5>
+						<span></span>
+					</div>
+				</div>
+
+				<div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
+				<div class="col-md-6  col-sm-6 col-xs-6 "></div>
+				<div class="col-md-6  col-sm-6 col-xs-6 work-right">
+					<div class="col-md-6 col-sm-6 col-xs-6 work2">
+						<h5>2020</h5>
+						<span></span>
+					</div>
+					<div class="col-md-6  col-sm-6 col-xs-6 work-right1">
+						<h4>第 45 届亚洲区域赛</h4>
+						<p>4 金<br />10 银<br />5 铜</p>
+					</div>
+				</div>
+
+				<div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
+				<div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2">
+					<div class="col-md-6  col-sm-6 col-xs-6  work1">
+						<h4>第 46 届亚洲区域赛</h4>
+						<p>2 金<br />4 银<br />10 铜</p>
+					</div>
+					<div class="col-md-6  col-sm-6 col-xs-6 work2">
+						<h5>2021</h5>
+						<span></span>
+					</div>
+				</div>
+
+				<div class="col-md-6  col-sm-6 col-xs-6 "> </div>
+				<div class="col-md-6  col-sm-6 col-xs-6 work-right">
+				</div>
+
+				<div class="clearfix"> </div>
+			</div>
+
+			<!-- <span class="edu-circle"></span> -->
+		</div>
+	</div>
+	<!--//work-experience-->
+	<!-- contact -->
+	<div id="contact" class="w3_agileits-contact">
+		<div class="container">
+			<h3 class="w3l-heading">提供信息</h3>
+			<div class="w3_agile-contact  jarallax text-center">
+				<h4>如果您已经加入了福州大学ACM团队</h4>
+				<h4>或者您的某些信息有误</h4>
+				<h4>欢迎把您的信息提供给我</h4>
+				<a href="mailto:i@wyr.im">i@wyr.im</a>
+				<h5>176 1431 3354</h5>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="agileits_w3layouts-footer text-center">
+		<div class="container">
+			<p>&copy; 2022 everlasting. All rights reserved</p>
+		</div>
+	</div>
+	<!-- //footer -->
+	<!-- //contact -->
+	<!-- PopUp-Box-JavaScript -->
+	<script src="js/jquery.chocolat.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$('.filtr-item a').Chocolat();
+		});
+	</script>
+	<!-- //PopUp-Box-JavaScript -->
+	<!-- fliter-JavaScript -->
+	<script src="js/jquery.filterizr.js"></script>
+	<script src="js/controls.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$('.filtr-container').filterizr();
+		});
+	</script>
+	<!-- //fliter-JavaScript -->
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- //here ends scrolling icon -->
 
 
 </body>
+
 </html>
