@@ -12,7 +12,7 @@ var members = [{
 	qq: 625838044,
 	belong: "2022",
 	say: "起风了",
-	//photo: "",
+	photo: "yh.jpg",
 }, {
 	name: "廖智炫",
 	id: "JustinRochester",
